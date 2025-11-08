@@ -1,0 +1,17 @@
+# PDF Processing Libraries
+pdfplumber==0.11.4
+unstructured[pdf]==0.16.9
+
+# API and HTTP Requests
+requests==2.32.3
+
+# Environment Variables Management
+python-dotenv==1.0.1
+
+# Additional dependencies for unstructured PDF processing
+pillow==10.4.0
+pdf2image==1.17.0
+pytesseract==0.3.13
+
+# Data Processing
+typing-extensions==4.12.2

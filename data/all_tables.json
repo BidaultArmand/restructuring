@@ -1,0 +1,2715 @@
+[
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Capital social Mandarine",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Capital total",
+        "2012": 1825000
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Répartition capital Mandarine",
+    "unit": "%",
+    "data": [
+      {
+        "label": "Monsieur Patrick Martin",
+        "pourcentage": 25
+      },
+      {
+        "label": "Monsieur Denis Cuisy",
+        "pourcentage": 38
+      },
+      {
+        "label": "Madame Roquéia Cuisy",
+        "pourcentage": 37
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Capital social E-Center",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Capital total",
+        "2007": 50000
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Loyers E-Center",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Malakoff (1200 m²)",
+        "loyer_annuel_ht": 102000
+      },
+      {
+        "label": "Mérignac (4375 m²)",
+        "loyer_annuel_ht": 151630
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Acquisition CGIN",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Montant total acquisition",
+        "2012": 2400000
+      },
+      {
+        "label": "Fonds propres E-Center",
+        "2012": 400000
+      },
+      {
+        "label": "Emprunt Mandarine (HSBC/Caisse Epargne)",
+        "2012": 1000000
+      },
+      {
+        "label": "Emprunt E-Center (OSEO)",
+        "2012": 500000
+      },
+      {
+        "label": "Facilités de caisse CGIN (Crédit Agricole)",
+        "2012": 500000
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Répartition activité E-Center",
+    "unit": "%",
+    "data": [
+      {
+        "label": "B to C",
+        "pourcentage": 66
+      },
+      {
+        "label": "B to B",
+        "pourcentage": 34
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Leasing machines",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Montant total restant leasing",
+        "valeur": 1900000
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Machine HP 10000",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Prix machine",
+        "2014": 1230000
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Structure du département production - Malakoff",
+    "unit": null,
+    "data": [
+      {
+        "label": "Responsable R&D",
+        "Nombre": 1
+      },
+      {
+        "label": "Directeur Technique",
+        "Nombre": 2
+      },
+      {
+        "label": "Responsable de production junior",
+        "Nombre": 1
+      },
+      {
+        "label": "Chef d’équipe et adjoint chef d’équipe façonnage",
+        "Nombre": 1
+      },
+      {
+        "label": "Opérateur façonnage",
+        "Nombre": 18
+      },
+      {
+        "label": "Opérateur presses numériques",
+        "Nombre": 4
+      },
+      {
+        "label": "Total",
+        "Nombre": 27
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Compte d'exploitation E-CENTER - Novembre à Septembre 2016",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Chiffre d'affaires",
+        "Prévisions": 8748,
+        "Réalisations": 8049
+      },
+      {
+        "label": "EBE",
+        "Prévisions": 611,
+        "Réalisations": 558
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Situation active/passive E-CENTER au 31 juillet 2016",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Poste Clients",
+        "ACTIF": 695085,
+        "PASSIF": null
+      },
+      {
+        "label": "Comptes de Trésorerie",
+        "ACTIF": 646188,
+        "PASSIF": null
+      },
+      {
+        "label": "Dette Fournisseurs",
+        "ACTIF": null,
+        "PASSIF": 296305
+      },
+      {
+        "label": "Dettes sociales",
+        "ACTIF": null,
+        "PASSIF": 299080
+      },
+      {
+        "label": "Dettes fiscales",
+        "ACTIF": null,
+        "PASSIF": 92902
+      },
+      {
+        "label": "Total",
+        "ACTIF": 1341273,
+        "PASSIF": 688286
+      },
+      {
+        "label": "Excédent actif",
+        "Valeur": 652987
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Compte d'exploitation MANDARINE - Novembre à Septembre 2016",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Chiffre d'affaires",
+        "Prévisions": 329,
+        "Réalisations": 580
+      },
+      {
+        "label": "EBE",
+        "Prévisions": 55,
+        "Réalisations": 173
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Situation active/passive MANDARINE au 31 juillet 2016",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Poste Clients",
+        "ACTIF": 59356,
+        "PASSIF": null
+      },
+      {
+        "label": "Comptes de Trésorerie",
+        "ACTIF": 127757,
+        "PASSIF": null
+      },
+      {
+        "label": "Dette Fournisseurs",
+        "ACTIF": null,
+        "PASSIF": 4996
+      },
+      {
+        "label": "Dettes sociales",
+        "ACTIF": null,
+        "PASSIF": 33437
+      },
+      {
+        "label": "Dettes fiscales",
+        "ACTIF": null,
+        "PASSIF": 7163
+      },
+      {
+        "label": "Total",
+        "ACTIF": 187113,
+        "PASSIF": 45596
+      },
+      {
+        "label": "Excédent actif",
+        "Valeur": 141516
+      }
+    ]
+  },
+  {
+    "source": "Rapport E-center sauvegarde.txt",
+    "titre": "Prévisions d'exploitation E-CENTER 2016-2023",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Production vendue",
+        "2016": 8589720,
+        "2017": 8091650,
+        "2018": 8200000,
+        "2019": 8200000,
+        "2020": 8200000,
+        "2021": 8200000,
+        "2022": 8200000,
+        "2023": 8200000
+      },
+      {
+        "label": "Achats coûts directs",
+        "2016": 3119378,
+        "2017": 3010163,
+        "2018": 3034000,
+        "2019": 3034000,
+        "2020": 3034000,
+        "2021": 3034000,
+        "2022": 3034000,
+        "2023": 3034000
+      },
+      {
+        "label": "Marge sur production",
+        "2016": 5470342,
+        "2017": 5081487,
+        "2018": 5166000,
+        "2019": 5166000,
+        "2020": 5166000,
+        "2021": 5166000,
+        "2022": 5166000,
+        "2023": 5166000
+      },
+      {
+        "label": "Services extérieurs",
+        "2016": 2497950,
+        "2017": 2238183,
+        "2018": 2193191,
+        "2019": 2068195,
+        "2020": 2068195,
+        "2021": 2068195,
+        "2022": 2068195,
+        "2023": 2068195
+      },
+      {
+        "label": "Charges externes (Total)",
+        "2016": 2512950,
+        "2017": 2253183,
+        "2018": 2208191,
+        "2019": 2083195,
+        "2020": 2083195,
+        "2021": 2083195,
+        "2022": 2083195,
+        "2023": 2083195
+      },
+      {
+        "label": "Valeur ajoutée",
+        "2016": 2957392,
+        "2017": 2828304,
+        "2018": 2957809,
+        "2019": 3082805,
+        "2020": 3082805,
+        "2021": 3082805,
+        "2022": 3082805,
+        "2023": 3082805
+      },
+      {
+        "label": "Impôts et taxes",
+        "2016": 166712,
+        "2017": 160876,
+        "2018": 160876,
+        "2019": 160876,
+        "2020": 160876,
+        "2021": 160876,
+        "2022": 160876,
+        "2023": 160876
+      },
+      {
+        "label": "Salaires bruts (Salariés)",
+        "2016": 1711051,
+        "2017": 1497276,
+        "2018": 1497276,
+        "2019": 1497276,
+        "2020": 1497276,
+        "2021": 1497276,
+        "2022": 1497276,
+        "2023": 1497276
+      },
+      {
+        "label": "Charges sociales (Salariés)",
+        "2016": 769973,
+        "2017": 673774,
+        "2018": 673774,
+        "2019": 673774,
+        "2020": 673774,
+        "2021": 673774,
+        "2022": 673774,
+        "2023": 673774
+      },
+      {
+        "label": "Charges de personnel (Total)",
+        "2016": 2683024,
+        "2017": 2171050,
+        "2018": 2171050,
+        "2019": 2171050,
+        "2020": 2171050,
+        "2021": 2171050,
+        "2022": 2171050,
+        "2023": 2171050
+      },
+      {
+        "label": "Excédent brut d'exploitation",
+        "2016": 107656,
+        "2017": 496378,
+        "2018": 625883,
+        "2019": 750879,
+        "2020": 750879,
+        "2021": 750879,
+        "2022": 750879,
+        "2023": 750879
+      },
+      {
+        "label": "Dotations aux amortissements",
+        "2016": 426000,
+        "2017": 426000,
+        "2018": 426000,
+        "2019": 426000,
+        "2020": 426000,
+        "2021": 426000,
+        "2022": 426000,
+        "2023": 426000
+      },
+      {
+        "label": "Résultat d'exploitation",
+        "2016": -318344,
+        "2017": 70378,
+        "2018": 199883,
+        "2019": 324879,
+        "2020": 324879,
+        "2021": 324879,
+        "2022": 324879,
+        "2023": 324879
+      },
+      {
+        "label": "Capacité d'autofinancement avant IS",
+        "2016": 67656,
+        "2017": 496378,
+        "2018": 625883,
+        "2019": 750879,
+        "2020": 750879,
+        "2021": 750879,
+        "2022": 750879,
+        "2023": 750879
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "Relevé de compte courant n° 23074642462",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Ancien solde créditeur au 31.12.2024",
+        "2013": null,
+        "2014": null,
+        "2015": null,
+        "valeur": 9418.93
+      },
+      {
+        "label": "Total des opérations débit",
+        "2013": null,
+        "2014": null,
+        "2015": null,
+        "valeur": 347672.38
+      },
+      {
+        "label": "Total des opérations crédit",
+        "2013": null,
+        "2014": null,
+        "2015": null,
+        "valeur": 340963.32
+      },
+      {
+        "label": "Nouveau solde créditeur au 31.01.2025",
+        "2013": null,
+        "2014": null,
+        "2015": null,
+        "valeur": 2709.87
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "Relevé de compte - Opérations courantes",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Total des opérations débit",
+        "value": 346576.53
+      },
+      {
+        "label": "Total des opérations crédit",
+        "value": 340948.98
+      },
+      {
+        "label": "Nouveau solde créditeur au 31.01.2025",
+        "value": 7859.89
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "BILAN - ACTIF",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Capital souscrit non appelé",
+        "Exercice N": 1150511,
+        "Exercice N-1": 926191
+      },
+      {
+        "label": "Frais d'établissement",
+        "Exercice N": 2209488,
+        "Exercice N-1": 2209488
+      },
+      {
+        "label": "Frais de développement",
+        "Exercice N": 913604,
+        "Exercice N-1": 780840
+      },
+      {
+        "label": "Concessions, brevets et droits similaires",
+        "Exercice N": 755382,
+        "Exercice N-1": 727517
+      },
+      {
+        "label": "Fonds commercial",
+        "Exercice N": 4000,
+        "Exercice N-1": 4000
+      },
+      {
+        "label": "Autres immobilisations incorporelles",
+        "Exercice N": 88520,
+        "Exercice N-1": 88520
+      },
+      {
+        "label": "Avances et acomptes sur immobilisations incorporelles",
+        "Exercice N": 5121507,
+        "Exercice N-1": 2434549
+      },
+      {
+        "label": "Terrains",
+        "Exercice N": 180026,
+        "Exercice N-1": 180026
+      },
+      {
+        "label": "Constructions",
+        "Exercice N": 275575,
+        "Exercice N-1": 275575
+      },
+      {
+        "label": "Installations techniques, matériel et outillage industriels",
+        "Exercice N": 446226,
+        "Exercice N-1": 446226
+      },
+      {
+        "label": "Autres immobilisations corporelles",
+        "Exercice N": 397710,
+        "Exercice N-1": 397710
+      },
+      {
+        "label": "Immobilisations en cours",
+        "Exercice N": 1299539,
+        "Exercice N-1": 1299539
+      },
+      {
+        "label": "Avances et acomptes",
+        "Exercice N": 6421046,
+        "Exercice N-1": 2434549
+      },
+      {
+        "label": "TOTAL GÉNÉRAL",
+        "Exercice N": 3986496,
+        "Exercice N-1": null
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "BILAN - PASSIF avant répartition",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Capital social ou individuel",
+        "Exercice N": 50000,
+        "Exercice N-1": 50000
+      },
+      {
+        "label": "Primes d'émission, de fusion, d'apport",
+        "Exercice N": 5000,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Ecarts de réévaluation",
+        "Exercice N": 521790,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Réserve légale",
+        "Exercice N": 269202,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Réserves statutaires ou contractuelles",
+        "Exercice N": 845992,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Réserves réglementées",
+        "Exercice N": 546540,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Autres réserves",
+        "Exercice N": 1384184,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Report à nouveau",
+        "Exercice N": 860202,
+        "Exercice N-1": null
+      },
+      {
+        "label": "RÉSULTAT DE L'EXERCICE",
+        "Exercice N": 349547,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Subventions d'investissement",
+        "Exercice N": 29,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Provisions réglementées",
+        "Exercice N": 3140504,
+        "Exercice N-1": null
+      },
+      {
+        "label": "TOTAL GÉNÉRAL",
+        "Exercice N": 3986496,
+        "Exercice N-1": 1806233
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "COMPTE DE RÉSULTAT DE L'EXERCICE",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Ventes de marchandises",
+        "Exercice N": 4249407,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Production vendue biens",
+        "Exercice N": 498670,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Production vendue services",
+        "Exercice N": 4748077,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Chiffres d'affaires nets",
+        "Exercice N": 4748077,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Production stockée",
+        "Exercice N": 6656,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Production immobilisée",
+        "Exercice N": 26105,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Total des produits d'exploitation",
+        "Exercice N": 4780839,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Achats de marchandises",
+        "Exercice N": 1014062,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Variation de stock (marchandises)",
+        "Exercice N": 4865,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Achats de matières premières et autres approvisionnements",
+        "Exercice N": 1536525,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Variation de stock (matières premières et approvisionnements)",
+        "Exercice N": 74439,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Autres achats et charges externes",
+        "Exercice N": 991911,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Impôts, taxes et versements assimilés",
+        "Exercice N": 352815,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Salaires et traitements",
+        "Exercice N": 107839,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Charges sociales",
+        "Exercice N": 403823,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Total des charges d'exploitation",
+        "Exercice N": 4486283,
+        "Exercice N-1": null
+      },
+      {
+        "label": "RÉSULTAT D'EXPLOITATION",
+        "Exercice N": 294555,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Produits financiers de participations",
+        "Exercice N": 26,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Produits des autres valeurs mobilières et créances de l'actif immobilisé",
+        "Exercice N": 26,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Autres intérêts et produits assimilés",
+        "Exercice N": 5624,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Total des produits financiers",
+        "Exercice N": 5624,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Dotations financières aux amortissements et provisions",
+        "Exercice N": 5597,
+        "Exercice N-1": null
+      },
+      {
+        "label": "Total des charges financières",
+        "Exercice N": 5597,
+        "Exercice N-1": null
+      },
+      {
+        "label": "RÉSULTAT FINANCIER",
+        "Exercice N": 27,
+        "Exercice N-1": null
+      },
+      {
+        "label": "RÉSULTAT COURANT AVANT IMPÔTS",
+        "Exercice N": 288958,
+        "Exercice N-1": null
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "COMPTE DE RÉSULTAT DE L'EXERCICE",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Charges exceptionnelles sur opérations en capital",
+        "N": null
+      },
+      {
+        "label": "Dotations exceptionnelles aux amortissements et provisions",
+        "N": null
+      },
+      {
+        "label": "Total des charges exceptionnelles",
+        "N": 29000
+      },
+      {
+        "label": "RÉSULTAT EXCEPTIONNEL",
+        "N": -29422
+      },
+      {
+        "label": "Participation des salariés aux résultats de l'entreprise",
+        "N": -9667
+      },
+      {
+        "label": "Impôts sur les bénéfices",
+        "N": null
+      },
+      {
+        "label": "TOTAL DES PRODUITS",
+        "N": 4781010
+      },
+      {
+        "label": "TOTAL DES CHARGES",
+        "N": 4511807
+      },
+      {
+        "label": "BÉNÉFICE OU PERTE",
+        "N": 269202
+      },
+      {
+        "label": "Autres charges",
+        "N": 16012
+      },
+      {
+        "label": "Autres produits",
+        "N": 144
+      },
+      {
+        "label": "Régularisation tiers",
+        "N": 13553
+      },
+      {
+        "label": "Sur exercices antérieurs",
+        "N": 13553
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "SITUATIONS ET MOUVEMENTS DE L'EXERCICE DES AMORTISSEMENTS TECHNIQUES",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Frais d'établissement et de développement",
+        "Montant net au début de l'exercice": 904024,
+        "Dotations de l'exercice": 22167,
+        "Montant net à la fin de l'exercice": 926191
+      },
+      {
+        "label": "Fonds commercial",
+        "Montant net au début de l'exercice": 904024,
+        "Dotations de l'exercice": 22167,
+        "Montant net à la fin de l'exercice": 926191
+      },
+      {
+        "label": "Autres immobilisations incorporelles",
+        "Montant net au début de l'exercice": 728673,
+        "Dotations de l'exercice": 66349,
+        "Diminutions": 14182,
+        "Montant net à la fin de l'exercice": 780840
+      },
+      {
+        "label": "Terrains - Sur sol propre",
+        "Montant net au début de l'exercice": 225633,
+        "Dotations de l'exercice": 3325,
+        "Montant net à la fin de l'exercice": 228959
+      },
+      {
+        "label": "Constructions - Sur sol d'autrui",
+        "Montant net au début de l'exercice": 511027,
+        "Dotations de l'exercice": 15996,
+        "Diminutions": 28466,
+        "Montant net à la fin de l'exercice": 498557
+      },
+      {
+        "label": "Inst. générales, agencements, aménagements des constructions",
+        "Montant net au début de l'exercice": 1465335,
+        "Dotations de l'exercice": 85671,
+        "Diminutions": 42648,
+        "Montant net à la fin de l'exercice": 1508358
+      },
+      {
+        "label": "TOTAL GÉNÉRAL",
+        "Montant net au début de l'exercice": 2369359,
+        "Dotations de l'exercice": 107839,
+        "Diminutions": 42648,
+        "Montant net à la fin de l'exercice": 2434549
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "ÉTAT DES CRÉANCES",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Créances rattachées à des participations",
+        "Montant brut": 88520,
+        "A 1 an au plus": 88520,
+        "A plus d'un an": null
+      },
+      {
+        "label": "Prêts",
+        "Montant brut": 2647,
+        "A 1 an au plus": 2647,
+        "A plus d'un an": null
+      },
+      {
+        "label": "Autres immobilisations financières",
+        "Montant brut": 272928,
+        "A 1 an au plus": 272928,
+        "A plus d'un an": null
+      },
+      {
+        "label": "Clients douteux ou litigieux",
+        "Montant brut": 6,
+        "A 1 an au plus": 6,
+        "A plus d'un an": null
+      },
+      {
+        "label": "Autres créances clients",
+        "Montant brut": 88187,
+        "A 1 an au plus": 88187,
+        "A plus d'un an": null
+      },
+      {
+        "label": "Personnel et comptes rattachés",
+        "Montant brut": 2111,
+        "A 1 an au plus": 2111,
+        "A plus d'un an": null
+      },
+      {
+        "label": "Sécurité sociale et autres organismes sociaux",
+        "Montant brut": 58207,
+        "A 1 an au plus": 58207,
+        "A plus d'un an": null
+      },
+      {
+        "label": "Impôts sur les bénéfices",
+        "Montant brut": 297713,
+        "A 1 an au plus": 297713,
+        "A plus d'un an": null
+      },
+      {
+        "label": "TOTAUX",
+        "Montant brut": 810322,
+        "A 1 an au plus": 721802,
+        "A plus d'un an": 88520
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "ÉTAT DES DETTES",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Emprunts obligataires convertibles",
+        "Montant brut": 546540,
+        "A 1 an au plus": 128749,
+        "A plus d'1 an et 5 ans au plus": 417790,
+        "A plus de 5 ans": null
+      },
+      {
+        "label": "Autres emprunts obligataires",
+        "Montant brut": 1384184,
+        "A 1 an au plus": 467704,
+        "A plus d'1 an et 5 ans au plus": 916480,
+        "A plus de 5 ans": null
+      },
+      {
+        "label": "Fournisseurs et comptes rattachés",
+        "Montant brut": 860202,
+        "A 1 an au plus": 860202,
+        "A plus d'1 an et 5 ans au plus": null,
+        "A plus de 5 ans": null
+      },
+      {
+        "label": "Personnel et comptes rattachés",
+        "Montant brut": 56101,
+        "A 1 an au plus": 56101,
+        "A plus d'1 an et 5 ans au plus": null,
+        "A plus de 5 ans": null
+      },
+      {
+        "label": "Sécurité sociale et autres organismes sociaux",
+        "Montant brut": 144803,
+        "A 1 an au plus": 144803,
+        "A plus d'1 an et 5 ans au plus": null,
+        "A plus de 5 ans": null
+      },
+      {
+        "label": "Impôts sur les bénéfices",
+        "Montant brut": 141271,
+        "A 1 an au plus": 141271,
+        "A plus d'1 an et 5 ans au plus": null,
+        "A plus de 5 ans": null
+      },
+      {
+        "label": "Taxe sur la valeur ajoutée",
+        "Montant brut": 7370,
+        "A 1 an au plus": 7370,
+        "A plus d'1 an et 5 ans au plus": null,
+        "A plus de 5 ans": null
+      },
+      {
+        "label": "Dettes sur immobilisations et comptes rattachés",
+        "Montant brut": 29,
+        "A 1 an au plus": 29,
+        "A plus d'1 an et 5 ans au plus": null,
+        "A plus de 5 ans": null
+      },
+      {
+        "label": "Groupe et associés",
+        "Montant brut": 130469,
+        "A 1 an au plus": 130469,
+        "A plus d'1 an et 5 ans au plus": null,
+        "A plus de 5 ans": null
+      },
+      {
+        "label": "TOTAUX",
+        "Montant brut": 3140504,
+        "A 1 an au plus": 1806233,
+        "A plus d'1 an et 5 ans au plus": 1334270,
+        "A plus de 5 ans": null
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "DETERMINATION DU RESULTAT FISCAL",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Impôt sur les sociétés",
+        "2023": null
+      },
+      {
+        "label": "Intérêts excédentaires",
+        "2023": 7257
+      },
+      {
+        "label": "Réintégration des charges affectées aux activités éligibles au régime de la taxation au tonnage",
+        "2023": 276677
+      },
+      {
+        "label": "Résultat fiscal afférent à l'activité relevant du régime optionnel de taxation au tonnage",
+        "2023": null
+      },
+      {
+        "label": "Déduction exceptionnelle pour investissement",
+        "2023": 9667
+      },
+      {
+        "label": "Déduction des produits affectés aux activités éligibles au régime de la taxation au tonnage",
+        "2023": 267009
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "REINTEGRATIONS DIVERSES",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Dépenses de mécénat",
+        "2023": 7257
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "CALCUL DE LA VALEUR AJOUTEE",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Ventes de produits fabriqués, prestations de services et marchandises",
+        "value": 4748077
+      },
+      {
+        "label": "Autres produits de gestion courante",
+        "value": 26105
+      },
+      {
+        "label": "Subventions d'exploitation reçues",
+        "value": 6656
+      },
+      {
+        "label": "Achats",
+        "value": 1186732
+      },
+      {
+        "label": "Variation négative des stocks",
+        "value": 4865
+      },
+      {
+        "label": "Services extérieurs",
+        "value": 1277323
+      },
+      {
+        "label": "Autres charges de gestion courante",
+        "value": 403823
+      },
+      {
+        "label": "Valeur ajoutée produite",
+        "value": 1908094
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "RELEVÉ DE FRAIS GÉNÉRAUX",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "MONSIEUR CUISY DENIS - DIRECTEUR TECHNIQUE",
+        "value": 82561
+      },
+      {
+        "label": "MONSIEUR SOMET - RESPONSABLE COMMERCIAL",
+        "value": 52517
+      },
+      {
+        "label": "MONSIEUR COLLONGE ERIC - OPERATEUR NEXPRESS",
+        "value": 47329
+      },
+      {
+        "label": "MADAME PIERRE Sophie Caroline - RESPONSABLE DEPARTEMENT LUXE",
+        "value": 44872
+      },
+      {
+        "label": "MONSIEUR BENAMMAR Abderrezzak - RESPONSABLE DEB WEB",
+        "value": 47137
+      },
+      {
+        "label": "TOTAL FRAIS PERSONNEL",
+        "value": 274416
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "COMPOSITION DU CAPITAL SOCIAL",
+    "unit": null,
+    "data": [
+      {
+        "label": "SAS MANDARINE",
+        "pourcentage_detention": 100.0,
+        "nb_parts_actions": 100
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Déclaration de cessation des paiements.txt",
+    "titre": "FILIALES ET PARTICIPATIONS",
+    "unit": null,
+    "data": [
+      {
+        "label": "SAS CDP",
+        "pourcentage_detention": 50.0
+      }
+    ]
+  },
+  {
+    "source": "E-CENTER - Prévisions de résultat d'exploitation RJ",
+    "titre": "Prévisions de résultat d'exploitation",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Produits d'exploitation H.T. - B to C",
+        "2023": 514823,
+        "2024": 199114,
+        "janvier-février": 218714,
+        "mars": 188882,
+        "avril": 203727,
+        "mai": 141014,
+        "juin": 182411,
+        "juillet": null,
+        "août": null
+      },
+      {
+        "label": "Produits d'exploitation H.T. - B to B",
+        "2023": 306471,
+        "2024": 187072,
+        "janvier-février": 174005,
+        "mars": 139518,
+        "avril": 195710,
+        "mai": 166512,
+        "juin": 36357,
+        "juillet": null,
+        "août": null
+      },
+      {
+        "label": "Chiffre d'affaires",
+        "2023": 4748078,
+        "2024": 4692441,
+        "janvier-février": 821294,
+        "mars": 386186,
+        "avril": 392719,
+        "mai": 328400,
+        "juin": 399437,
+        "juillet": 307526,
+        "août": 218768
+      },
+      {
+        "label": "Autres produits",
+        "2023": 6861,
+        "2024": 21714,
+        "janvier-février": null,
+        "mars": null,
+        "avril": null,
+        "mai": null,
+        "juin": null,
+        "juillet": null,
+        "août": null
+      },
+      {
+        "label": "TOTAL PRODUITS T1",
+        "2023": 4754939,
+        "2024": 4714156,
+        "janvier-février": 821294,
+        "mars": 386186,
+        "avril": 392719,
+        "mai": 328400,
+        "juin": 399437,
+        "juillet": 307526,
+        "août": 218768
+      },
+      {
+        "label": "Charges d'exploitation H.T. - Marchandises / Matières 1ères",
+        "2023": 1018927,
+        "2024": 981767,
+        "janvier-février": 197961,
+        "mars": 94718,
+        "avril": 95133,
+        "mai": 80140,
+        "juin": 97542,
+        "juillet": 76342,
+        "août": 51684
+      },
+      {
+        "label": "Charges d'exploitation H.T. - Loyers",
+        "2023": 74269,
+        "2024": 38827,
+        "janvier-février": 36896,
+        "mars": 36896,
+        "avril": 35437,
+        "mai": 33745,
+        "juin": 33745,
+        "juillet": null,
+        "août": null
+      },
+      {
+        "label": "Charges d'exploitation H.T. - Autres achats et charges externes",
+        "2023": 1536526,
+        "2024": 1729053,
+        "janvier-février": 211382,
+        "mars": 98431,
+        "avril": 105148,
+        "mai": 101815,
+        "juin": 103170,
+        "juillet": 90433,
+        "août": 88407
+      },
+      {
+        "label": "Charges d'exploitation H.T. - Impôts et taxes",
+        "2023": 74440,
+        "2024": 65944,
+        "janvier-février": 13000,
+        "mars": 6500,
+        "avril": 6500,
+        "mai": 6500,
+        "juin": 6500,
+        "juillet": 6500,
+        "août": 6500
+      },
+      {
+        "label": "Charges d'exploitation H.T. - Salaires et traitements",
+        "2023": 991912,
+        "2024": 1016856,
+        "janvier-février": 154443,
+        "mars": 76021,
+        "avril": 76021,
+        "mai": 76021,
+        "juin": 76021,
+        "juillet": 76021,
+        "août": 76021
+      },
+      {
+        "label": "Charges d'exploitation H.T. - Charges sociales",
+        "2023": 352816,
+        "2024": 296395,
+        "janvier-février": 69499,
+        "mars": 34210,
+        "avril": 34210,
+        "mai": 34210,
+        "juin": 34210,
+        "juillet": 34210,
+        "août": 34210
+      },
+      {
+        "label": "Charges d'exploitation H.T. - Autres charges",
+        "2023": 403824,
+        "2024": 346693,
+        "janvier-février": 62100,
+        "mars": 33275,
+        "avril": 31175,
+        "mai": 31175,
+        "juin": 33275,
+        "juillet": 31175,
+        "août": 31175
+      },
+      {
+        "label": "TOTAL CHARGES T2",
+        "2023": 4378445,
+        "2024": 4436708,
+        "janvier-février": 782655,
+        "mars": 381981,
+        "avril": 385083,
+        "mai": 366756,
+        "juin": 386154,
+        "juillet": 348426,
+        "août": 321742
+      },
+      {
+        "label": "RESULTAT D'EXPLOITATION (T1-T2)",
+        "2023": 376494,
+        "2024": 277448,
+        "janvier-février": 38639,
+        "mars": 4204,
+        "avril": 7636,
+        "mai": -38356,
+        "juin": 13283,
+        "juillet": -40900,
+        "août": -102974
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Capital social Mandarine",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Capital social",
+        "valeur": 1825000
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Capital social E-CENTER",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Capital social",
+        "valeur": 50000
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Répartition du capital Mandarine",
+    "unit": null,
+    "data": [
+      {
+        "label": "Monsieur Patrick Martin",
+        "pourcentage": 25
+      },
+      {
+        "label": "Monsieur Denis Cuisy",
+        "pourcentage": 38
+      },
+      {
+        "label": "Madame Roquéia Cuisy",
+        "pourcentage": 37
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Loyers E-CENTER",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Loyer annuel Malakoff (1200 m²)",
+        "valeur": 102000
+      },
+      {
+        "label": "Loyer annuel Mérignac (4375 m²)",
+        "valeur": 151630
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Acquisition CGIN",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Montant acquisition",
+        "valeur": 2400000
+      },
+      {
+        "label": "Fonds propres E-Center",
+        "valeur": 400000
+      },
+      {
+        "label": "Emprunt Mandarine (HSBC et Caisse d'Epargne)",
+        "valeur": 1000000
+      },
+      {
+        "label": "Emprunt E-Center (OSEO)",
+        "valeur": 500000
+      },
+      {
+        "label": "Facilités de caisse CGIN (Crédit Agricole)",
+        "valeur": 500000
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Répartition du chiffre d'affaires par segment",
+    "unit": null,
+    "data": [
+      {
+        "label": "B to C",
+        "pourcentage": 66
+      },
+      {
+        "label": "B to B",
+        "pourcentage": 34
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Saisonnalité du chiffre d'affaires",
+    "unit": null,
+    "data": [
+      {
+        "label": "Chiffre d'affaires sur 4 mois (décembre à mars)",
+        "pourcentage": 40
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Comparaison avec concurrent",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Photobox - Chiffre d'affaires",
+        "valeur": 208000000
+      },
+      {
+        "label": "Groupe Mandarine - Chiffre d'affaires",
+        "valeur": 15000000
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Contrats de leasing",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Montant total restant des contrats de leasing",
+        "valeur": 1900000
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de sauvegarde.txt",
+    "titre": "Machine HP Indigo",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Machine HP 10000 - Prix global",
+        "valeur": 1230000
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "MANDARINE - Principaux chiffres",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "chiffre d'affaires",
+        "2013": 889743,
+        "2014": 742628,
+        "2015": 807635
+      },
+      {
+        "label": "Résultat d'exploitation",
+        "2013": 44098,
+        "2014": -585472,
+        "2015": -419005
+      },
+      {
+        "label": "Résultat net",
+        "2013": -18689,
+        "2014": -373848,
+        "2015": -255314
+      },
+      {
+        "label": "actifs immobilisés",
+        "2013": 4155368,
+        "2014": 4230976,
+        "2015": 2210096
+      },
+      {
+        "label": "actifs circulants",
+        "2013": 459561,
+        "2014": 286598,
+        "2015": 304896
+      },
+      {
+        "label": "capitaux propres",
+        "2013": 1848867,
+        "2014": 1513617,
+        "2015": 1177150
+      },
+      {
+        "label": "endettement",
+        "2013": 2766062,
+        "2014": 3014408,
+        "2015": 1337845
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "E-CENTER - Principaux chiffres",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "chiffre d'affaires",
+        "2013": 5139127,
+        "2014": 4586499,
+        "2015": 6274112
+      },
+      {
+        "label": "Résultat d'exploitation",
+        "2013": 51591,
+        "2014": -47958,
+        "2015": 118701
+      },
+      {
+        "label": "Résultat net",
+        "2013": 124506,
+        "2014": -68129,
+        "2015": -71399
+      },
+      {
+        "label": "actifs immobilisés",
+        "2013": 303055,
+        "2014": 269652,
+        "2015": 3379101
+      },
+      {
+        "label": "actifs circulants",
+        "2013": 2042513,
+        "2014": 2352228,
+        "2015": 2786413
+      },
+      {
+        "label": "capitaux propres",
+        "2013": 690129,
+        "2014": 622001,
+        "2015": 550600
+      },
+      {
+        "label": "endettement",
+        "2013": 1655439,
+        "2014": 1999878,
+        "2015": 5614914
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "CGIN - Principaux chiffres",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "chiffre d'affaires",
+        "2013": 9877855,
+        "2014": 10317957,
+        "2015": 5409368
+      },
+      {
+        "label": "Résultat d'exploitation",
+        "2013": 425599,
+        "2014": 30378,
+        "2015": -871327
+      },
+      {
+        "label": "Résultat net",
+        "2013": 286949,
+        "2014": 2697,
+        "2015": -824883
+      },
+      {
+        "label": "actifs immobilisés",
+        "2013": 718948,
+        "2014": 1139556,
+        "2015": 925592
+      },
+      {
+        "label": "actifs circulants",
+        "2013": 2545397,
+        "2014": 1954065,
+        "2015": 1661219
+      },
+      {
+        "label": "capitaux propres",
+        "2013": 767198,
+        "2014": 469894,
+        "2015": -354989
+      },
+      {
+        "label": "endettement",
+        "2013": 2497146,
+        "2014": 2623726,
+        "2015": 2941600
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Mandarine - Compte de résultat détaillé",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Chiffre d'affaires net",
+        "2013": 889743,
+        "2014": 742628,
+        "2015": 807635
+      },
+      {
+        "label": "Production immobilisée",
+        "2013": 0,
+        "2014": 7821,
+        "2015": 0
+      },
+      {
+        "label": "Autres produits",
+        "2013": 132,
+        "2014": 14370,
+        "2015": 0
+      },
+      {
+        "label": "PRODUITS D'EXPLOITATION",
+        "2013": 889875,
+        "2014": 750450,
+        "2015": 922106
+      },
+      {
+        "label": "Achat de marchandises",
+        "2013": 0,
+        "2014": 6933,
+        "2015": 0
+      },
+      {
+        "label": "Autres achats et charges externes",
+        "2013": 359638,
+        "2014": 709907,
+        "2015": 815897
+      },
+      {
+        "label": "VALEUR AJOUTEE",
+        "2013": 530237,
+        "2014": 33610,
+        "2015": 106209
+      },
+      {
+        "label": "impôts et taxes",
+        "2013": 5302,
+        "2014": 10093,
+        "2015": 882
+      },
+      {
+        "label": "Salaires et traitements",
+        "2013": 358726,
+        "2014": 449361,
+        "2015": 329168
+      },
+      {
+        "label": "Charges sociales du personnel",
+        "2013": 115688,
+        "2014": 144812,
+        "2015": 106562
+      },
+      {
+        "label": "EBE",
+        "2013": 50521,
+        "2014": -570656,
+        "2015": -330403
+      },
+      {
+        "label": "Dotations aux amortissements",
+        "2013": 6423,
+        "2014": 14815,
+        "2015": 76278
+      },
+      {
+        "label": "Autres charges",
+        "2013": 0,
+        "2014": 1,
+        "2015": 6973
+      },
+      {
+        "label": "RESULTAT D'EXPLOITATION",
+        "2013": 44098,
+        "2014": -585472,
+        "2015": -419005
+      },
+      {
+        "label": "Produits financiers",
+        "2013": 0,
+        "2014": 300000,
+        "2015": 0
+      },
+      {
+        "label": "Charges financières",
+        "2013": 20124,
+        "2014": 66882,
+        "2015": 23304
+      },
+      {
+        "label": "Résultat financier",
+        "2013": -20124,
+        "2014": 233118,
+        "2015": -23304
+      },
+      {
+        "label": "Produits exceptionnels",
+        "2013": 1750,
+        "2014": 17500,
+        "2015": 2247790
+      },
+      {
+        "label": "Charges exceptionnelles",
+        "2013": 44413,
+        "2014": 38994,
+        "2015": 2060794
+      },
+      {
+        "label": "Résultat exceptionnel",
+        "2013": -42663,
+        "2014": -21494,
+        "2015": 186995
+      },
+      {
+        "label": "RESULTAT DE L'EXERCICE",
+        "2013": -18689,
+        "2014": -373848,
+        "2015": -255314
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Mandarine - Actif",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Immobilisations incorporelles (brevets)",
+        "2013": 36827,
+        "2014": 109739,
+        "2015": 66658
+      },
+      {
+        "label": "Immobilisations corporelles",
+        "2013": 0,
+        "2014": 3196,
+        "2015": 1997
+      },
+      {
+        "label": "Immobilisations financières",
+        "2013": 4118041,
+        "2014": 4118041,
+        "2015": 2141440
+      },
+      {
+        "label": "Actif immobilisé",
+        "2013": 4155368,
+        "2014": 4230976,
+        "2015": 2210096
+      },
+      {
+        "label": "Clients et comptes rattachés",
+        "2013": 121387,
+        "2014": 143090,
+        "2015": 141304
+      },
+      {
+        "label": "Autres créances",
+        "2013": 289914,
+        "2014": 117573,
+        "2015": 135271
+      },
+      {
+        "label": "Disponibilités +VMP",
+        "2013": 48260,
+        "2014": 25935,
+        "2015": 28322
+      },
+      {
+        "label": "Actif circulant",
+        "2013": 459561,
+        "2014": 286598,
+        "2015": 304898
+      },
+      {
+        "label": "Charges constatées d'avance",
+        "2013": 10451,
+        "2014": 0,
+        "2015": null
+      },
+      {
+        "label": "Total Actif",
+        "2013": 4614929,
+        "2014": 4528025,
+        "2015": 2514994
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Mandarine - Passif",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Capital social",
+        "2013": 1825000,
+        "2014": 1825000,
+        "2015": 1825000
+      },
+      {
+        "label": "Report à nouveau",
+        "2013": -18689,
+        "2014": -392536,
+        "2015": null
+      },
+      {
+        "label": "Résultat net",
+        "2013": -18689,
+        "2014": -373847,
+        "2015": -255314
+      },
+      {
+        "label": "Provisions règlementées",
+        "2013": 42556,
+        "2014": 81153,
+        "2015": 0
+      },
+      {
+        "label": "Capitaux propres",
+        "2013": 1848867,
+        "2014": 1513617,
+        "2015": 1177149
+      },
+      {
+        "label": "Dettes financières",
+        "2013": 2420318,
+        "2014": 1973322,
+        "2015": 815561
+      },
+      {
+        "label": "Emprunts auprès des Ebts de crédit",
+        "2013": 926603,
+        "2014": 776775,
+        "2015": 627619
+      },
+      {
+        "label": "Emprunts et Dettes Financières Divers",
+        "2013": 1493715,
+        "2014": 1196547,
+        "2015": 185729
+      },
+      {
+        "label": "Dettes d'exploitation",
+        "2013": 345744,
+        "2014": 1041086,
+        "2015": 518282
+      },
+      {
+        "label": "dettes Fournisseurs",
+        "2013": 238389,
+        "2014": 656850,
+        "2015": 423874
+      },
+      {
+        "label": "dettes fiscales et sociales",
+        "2013": 107105,
+        "2014": 138505,
+        "2015": 98408
+      },
+      {
+        "label": "Autres dettes",
+        "2013": 250245,
+        "2014": 731,
+        "2015": 0
+      },
+      {
+        "label": "Total Passif",
+        "2013": 4614929,
+        "2014": 4528025,
+        "2015": 2514994
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "E-Center - Compte de résultat",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Chiffre d'affaires net",
+        "2013": 5139127,
+        "2014": 4586499,
+        "2015": 6274112
+      },
+      {
+        "label": "Subventions d'exploitations",
+        "2013": 1000,
+        "2014": 1083,
+        "2015": 0
+      },
+      {
+        "label": "RAP",
+        "2013": 0,
+        "2014": 101184,
+        "2015": 10873
+      },
+      {
+        "label": "Autres produits",
+        "2013": 22140,
+        "2014": 24993,
+        "2015": 15057
+      },
+      {
+        "label": "PRODUITS D'EXPLOITATION",
+        "2013": 5162267,
+        "2014": 4713759,
+        "2015": 6300043
+      },
+      {
+        "label": "Achat de marchandises",
+        "2013": 342950,
+        "2014": 6495,
+        "2015": 8317
+      },
+      {
+        "label": "Variation de stock de marchandises",
+        "2013": 0,
+        "2014": 0,
+        "2015": 0
+      },
+      {
+        "label": "Achats de matière première et autres",
+        "2013": 876062,
+        "2014": 618547,
+        "2015": 1234849
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Inventaire Malakoff",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "MOBILIER ET MATERIEL",
+        "Valeur d'exploitation": 7360,
+        "Valeur de réalisation": 3310
+      },
+      {
+        "label": "En propre",
+        "Valeur d'exploitation": 7360,
+        "Valeur de réalisation": 3310
+      },
+      {
+        "label": "MOBILIER D'EXPLOITATION",
+        "Valeur d'exploitation": 223400,
+        "Valeur de réalisation": 72050
+      },
+      {
+        "label": "En propre",
+        "Valeur d'exploitation": 223400,
+        "Valeur de réalisation": 72050
+      },
+      {
+        "label": "PARC AUTOMOBILE",
+        "Valeur d'exploitation": 19000,
+        "Valeur de réalisation": 11800
+      },
+      {
+        "label": "En propre",
+        "Valeur d'exploitation": 19000,
+        "Valeur de réalisation": 11800
+      },
+      {
+        "label": "STOCK",
+        "Valeur d'exploitation": 70247,
+        "Valeur de réalisation": 5500
+      },
+      {
+        "label": "En propre",
+        "Valeur d'exploitation": 70247,
+        "Valeur de réalisation": 5500
+      },
+      {
+        "label": "TOTAL",
+        "Valeur d'exploitation": 320007,
+        "Valeur de réalisation": 92660
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Inventaire Mérignac",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "MOBILIER ET MATERIEL",
+        "Valeur d'exploitation": 21060,
+        "Valeur de réalisation": 8280
+      },
+      {
+        "label": "En propre",
+        "Valeur d'exploitation": 21060,
+        "Valeur de réalisation": 8280
+      },
+      {
+        "label": "MOBILIER D'EXPLOITATION",
+        "Valeur d'exploitation": 328800,
+        "Valeur de réalisation": 110890
+      },
+      {
+        "label": "à des tiers",
+        "Valeur d'exploitation": 5000,
+        "Valeur de réalisation": 2000
+      },
+      {
+        "label": "en location",
+        "Valeur d'exploitation": 2800,
+        "Valeur de réalisation": 400
+      },
+      {
+        "label": "En propre",
+        "Valeur d'exploitation": 321000,
+        "Valeur de réalisation": 108490
+      },
+      {
+        "label": "STOCK",
+        "Valeur d'exploitation": 314574,
+        "Valeur de réalisation": 15000
+      },
+      {
+        "label": "En propre",
+        "Valeur d'exploitation": 314574,
+        "Valeur de réalisation": 15000
+      },
+      {
+        "label": "TOTAL",
+        "Valeur d'exploitation": 664434,
+        "Valeur de réalisation": 134170
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Passif SAS Mandarine",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Créanciers Privilégiés",
+        "échus": null,
+        "à échoir": 8779,
+        "total": 8779
+      },
+      {
+        "label": "Social",
+        "échus": null,
+        "à échoir": 3153,
+        "total": 3153
+      },
+      {
+        "label": "Fiscal",
+        "échus": null,
+        "à échoir": 161,
+        "total": 161
+      },
+      {
+        "label": "Salariés",
+        "échus": null,
+        "à échoir": 5465,
+        "total": 5465
+      },
+      {
+        "label": "Créanciers Chirographaires",
+        "échus": null,
+        "à échoir": 107718,
+        "total": 107718
+      },
+      {
+        "label": "Fournisseurs",
+        "échus": null,
+        "à échoir": null,
+        "total": null
+      },
+      {
+        "label": "Banque",
+        "échus": null,
+        "à échoir": 30000,
+        "total": 30000
+      },
+      {
+        "label": "In Extenso",
+        "échus": null,
+        "à échoir": 10620,
+        "total": 10620
+      },
+      {
+        "label": "GDT",
+        "échus": null,
+        "à échoir": 67098,
+        "total": 67098
+      },
+      {
+        "label": "TOTAL",
+        "échus": null,
+        "à échoir": 116497,
+        "total": 116497
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Passif SAS E-Center",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Créanciers Privilégiés",
+        "échus": null,
+        "à échoir": 102500,
+        "total": 102500
+      },
+      {
+        "label": "Charges sociales",
+        "échus": null,
+        "à échoir": 35127,
+        "total": 35127
+      },
+      {
+        "label": "Fiscal",
+        "échus": null,
+        "à échoir": 7269,
+        "total": 7269
+      },
+      {
+        "label": "Salariés",
+        "échus": null,
+        "à échoir": 60104,
+        "total": 60104
+      },
+      {
+        "label": "Créanciers Chirographaires",
+        "échus": 464434,
+        "à échoir": 1843364,
+        "total": 2307798
+      },
+      {
+        "label": "Fournisseurs",
+        "échus": 464434,
+        "à échoir": 812127,
+        "total": 1276561
+      },
+      {
+        "label": "Banques",
+        "échus": null,
+        "à échoir": 1031237,
+        "total": 1031237
+      },
+      {
+        "label": "Comptes courants d'associés",
+        "échus": null,
+        "à échoir": null,
+        "total": null
+      },
+      {
+        "label": "TOTAL",
+        "échus": 464434,
+        "à échoir": 1945864,
+        "total": 2410298
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Effectif de la société MANDARINE",
+    "unit": null,
+    "data": [
+      {
+        "label": "DRH",
+        "contrat": "CDI"
+      },
+      {
+        "label": "Directrice des Achats",
+        "contrat": "CDI"
+      },
+      {
+        "label": "Responsable Administratif",
+        "contrat": "CDI"
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Accord transactionnel avec HP - Créances antérieures",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Machine HP 7500 site de Mérignac",
+        "montant": 178306.19
+      },
+      {
+        "label": "Machines HP 10000 site de Malakoff",
+        "montant": 389461.87
+      },
+      {
+        "label": "Paiement solde machines HP 10000",
+        "montant": 164470.87
+      },
+      {
+        "label": "HP INDIGO - maintenance",
+        "montant": 111690.98
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Versement loyers période d'observation",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Loyers novembre 2015 à août 2016",
+        "montant": 512995
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Accord avec Orange - Acquisition marques",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Prix d'acquisition des marques",
+        "montant": 500000
+      },
+      {
+        "label": "Créances déclarées au passif",
+        "montant": 445000
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Structure du département production - site de Malakoff",
+    "unit": null,
+    "data": [
+      {
+        "label": "Responsable R&D",
+        "Nombre": 1
+      },
+      {
+        "label": "Directeur Technique",
+        "Nombre": 2
+      },
+      {
+        "label": "Responsable de production junior",
+        "Nombre": 1
+      },
+      {
+        "label": "Chef d’équipe et adjoint chef d’équipe façonnage",
+        "Nombre": 1
+      },
+      {
+        "label": "Opérateur façonnage",
+        "Nombre": 18
+      },
+      {
+        "label": "Opérateur presses numériques",
+        "Nombre": 4
+      },
+      {
+        "label": "Total",
+        "Nombre": 27
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Compte d'exploitation E-CENTER - Novembre à Septembre 2016",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Chiffre d'affaires",
+        "Prévisions": 8748,
+        "Réalisations": 8049
+      },
+      {
+        "label": "EBE",
+        "Prévisions": 611,
+        "Réalisations": 558
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Situation Actif Passif - SAS E CENTER au 31 juillet 2016",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Poste Clients",
+        "ACTIF": 695085,
+        "PASSIF": null
+      },
+      {
+        "label": "Comptes de Trésorerie",
+        "ACTIF": 646188,
+        "PASSIF": null
+      },
+      {
+        "label": "Dette Fournisseurs",
+        "ACTIF": null,
+        "PASSIF": 296305
+      },
+      {
+        "label": "Dettes sociales",
+        "ACTIF": null,
+        "PASSIF": 299080
+      },
+      {
+        "label": "Dettes fiscales",
+        "ACTIF": null,
+        "PASSIF": 92902
+      },
+      {
+        "label": "Total",
+        "ACTIF": 1341273,
+        "PASSIF": 688286
+      },
+      {
+        "label": "Excédent actif",
+        "ACTIF": 652987,
+        "PASSIF": null
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Compte d'exploitation MANDARINE - Novembre à Septembre 2016",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Chiffre d'affaires",
+        "Prévisions": 329,
+        "Réalisations": 580
+      },
+      {
+        "label": "EBE",
+        "Prévisions": 55,
+        "Réalisations": 173
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Situation Actif Passif - SAS MANDARINE au 31 juillet 2016",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Poste Clients",
+        "ACTIF": 59356,
+        "PASSIF": null
+      },
+      {
+        "label": "Comptes de Trésorerie",
+        "ACTIF": 127757,
+        "PASSIF": null
+      },
+      {
+        "label": "Dette Fournisseurs",
+        "ACTIF": null,
+        "PASSIF": 4996
+      },
+      {
+        "label": "Dettes sociales",
+        "ACTIF": null,
+        "PASSIF": 33437
+      },
+      {
+        "label": "Dettes fiscales",
+        "ACTIF": null,
+        "PASSIF": 7163
+      },
+      {
+        "label": "Total",
+        "ACTIF": 187113,
+        "PASSIF": 45596
+      },
+      {
+        "label": "Excédent actif",
+        "ACTIF": 141516,
+        "PASSIF": null
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "Prévisions d'exploitation E-CENTER 2016-2023",
+    "unit": "EUR",
+    "data": [
+      {
+        "label": "Production vendue",
+        "2016": 8589720,
+        "2017": 8091650,
+        "2018": 8200000,
+        "2019": 8200000,
+        "2020": 8200000,
+        "2021": 8200000,
+        "2022": 8200000,
+        "2023": 8200000
+      },
+      {
+        "label": "Achats coûts directs",
+        "2016": 3119378,
+        "2017": 3010163,
+        "2018": 3034000,
+        "2019": 3034000,
+        "2020": 3034000,
+        "2021": 3034000,
+        "2022": 3034000,
+        "2023": 3034000
+      },
+      {
+        "label": "Marge sur production",
+        "2016": 5470342,
+        "2017": 5081487,
+        "2018": 5166000,
+        "2019": 5166000,
+        "2020": 5166000,
+        "2021": 5166000,
+        "2022": 5166000,
+        "2023": 5166000
+      },
+      {
+        "label": "Fournitures consommables",
+        "2016": 15000,
+        "2017": 15000,
+        "2018": 15000,
+        "2019": 15000,
+        "2020": 15000,
+        "2021": 15000,
+        "2022": 15000,
+        "2023": 15000
+      },
+      {
+        "label": "Services extérieurs",
+        "2016": 2497950,
+        "2017": 2238183,
+        "2018": 2193191,
+        "2019": 2068195,
+        "2020": 2068195,
+        "2021": 2068195,
+        "2022": 2068195,
+        "2023": 2068195
+      },
+      {
+        "label": "Charges externes (Total)",
+        "2016": 2512950,
+        "2017": 2253183,
+        "2018": 2208191,
+        "2019": 2083195,
+        "2020": 2083195,
+        "2021": 2083195,
+        "2022": 2083195,
+        "2023": 2083195
+      },
+      {
+        "label": "Valeur ajoutée",
+        "2016": 2957392,
+        "2017": 2828304,
+        "2018": 2957809,
+        "2019": 3082805,
+        "2020": 3082805,
+        "2021": 3082805,
+        "2022": 3082805,
+        "2023": 3082805
+      },
+      {
+        "label": "Impôts et taxes",
+        "2016": 166712,
+        "2017": 160876,
+        "2018": 160876,
+        "2019": 160876,
+        "2020": 160876,
+        "2021": 160876,
+        "2022": 160876,
+        "2023": 160876
+      },
+      {
+        "label": "Salaires bruts (Salariés)",
+        "2016": 1711051,
+        "2017": 1497276,
+        "2018": 1497276,
+        "2019": 1497276,
+        "2020": 1497276,
+        "2021": 1497276,
+        "2022": 1497276,
+        "2023": 1497276
+      },
+      {
+        "label": "Charges sociales (Salariés)",
+        "2016": 769973,
+        "2017": 673774,
+        "2018": 673774,
+        "2019": 673774,
+        "2020": 673774,
+        "2021": 673774,
+        "2022": 673774,
+        "2023": 673774
+      },
+      {
+        "label": "Coût PSE",
+        "2016": 202000,
+        "2017": null,
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null
+      },
+      {
+        "label": "Charges de personnel (Total)",
+        "2016": 2683024,
+        "2017": 2171050,
+        "2018": 2171050,
+        "2019": 2171050,
+        "2020": 2171050,
+        "2021": 2171050,
+        "2022": 2171050,
+        "2023": 2171050
+      },
+      {
+        "label": "Excédent brut d'exploitation",
+        "2016": 107656,
+        "2017": 496378,
+        "2018": 625883,
+        "2019": 750879,
+        "2020": 750879,
+        "2021": 750879,
+        "2022": 750879,
+        "2023": 750879
+      },
+      {
+        "label": "Dotations aux amortissements",
+        "2016": 426000,
+        "2017": 426000,
+        "2018": 426000,
+        "2019": 426000,
+        "2020": 426000,
+        "2021": 426000,
+        "2022": 426000,
+        "2023": 426000
+      },
+      {
+        "label": "Résultat d'exploitation",
+        "2016": -318344,
+        "2017": 70378,
+        "2018": 199883,
+        "2019": 324879,
+        "2020": 324879,
+        "2021": 324879,
+        "2022": 324879,
+        "2023": 324879
+      },
+      {
+        "label": "Résultat courant",
+        "2016": -318344,
+        "2017": 70378,
+        "2018": 199883,
+        "2019": 324879,
+        "2020": 324879,
+        "2021": 324879,
+        "2022": 324879,
+        "2023": 324879
+      },
+      {
+        "label": "Charges exceptionnelles",
+        "2016": 40000,
+        "2017": null,
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null
+      },
+      {
+        "label": "Résultat exceptionnel",
+        "2016": -40000,
+        "2017": 0,
+        "2018": 0,
+        "2019": 0,
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0
+      },
+      {
+        "label": "Résultat avant impôt",
+        "2016": -358344,
+        "2017": 70378,
+        "2018": 199883,
+        "2019": 324879,
+        "2020": 324879,
+        "2021": 324879,
+        "2022": 324879,
+        "2023": 324879
+      },
+      {
+        "label": "Capacité d'autofinancement avant IS",
+        "2016": 67656,
+        "2017": 496378,
+        "2018": 625883,
+        "2019": 750879,
+        "2020": 750879,
+        "2021": 750879,
+        "2022": 750879,
+        "2023": 750879
+      }
+    ]
+  },
+  {
+    "source": "e - center projet de plan de sauvegarde.txt",
+    "titre": "État du passif : créanciers et montants déclarés/retenus",
+    "unit": "EUR",
+    "data": [
+      {
+        "nature_passif": "AGS",
+        "creancier": null,
+        "montant_declare": 202000.00,
+        "montant_retenu": 0.00
+      },
+      {
+        "nature_passif": "INFERIEUR 500€",
+        "creancier": null,
+        "montant_declare": 6296.25,
+        "montant_retenu": 0.00
+      },
+      {
+        "nature_passif": "PRIVILEGIEE",
+        "sous_totaux": [
+          {
+            "label": "Sous-total privilégiés publics",
+            "montant_declare": 719219.72,
+            "montant_retenu": 356762.22
+          },
+          {
+            "label": "Sous-total privilégiés privés",
+            "montant_declare": 76083.07,
+            "montant_retenu": 75268.20
+          },
+          {
+            "label": "Sous-total privilégiés salaires",
+            "montant_declare": 71702.99,
+            "montant_retenu": 0.00
+          }
+        ],
+        "montant_declare": 867005.78,
+        "montant_retenu": 432030.42
+      },
+      {
+        "nature_passif": "4. CHIROGRAPHAIRES",
+        "sous_totaux": [
+          {
+            "label": "Sous-total chirographaires à échoir",
+            "montant_declare": 1588673.09,
+            "montant_retenu": 72375.92
+          },
+          {
+            "label": "Sous-total banques",
+            "montant_declare": 1839291.24,
+            "montant_retenu": 1749086.24
+          },
+          {
+            "label": "Sous-total chirographaires ORANGE",
+            "montant_declare": 445201.25,
+            "montant_retenu": 0.00
+          },
+          {
+            "label": "Sous-total chirographaires HP",
+            "montant_declare": 2996269.60,
+            "montant_retenu": 0.00
+          },
+          {
+            "label": "Sous-total chirographaires privés divers",
+            "montant_declare": 727173.83,
+            "montant_retenu": 620629.78
+          }
+        ],
+        "montant_declare": 7596609.01,
+        "montant_retenu": 2442091.94
+      },
+      {
+        "nature_passif": "TOTAL",
+        "montant_declare": 8671911.04,
+        "montant_retenu": 2874122.36
+      }
+    ]
+  }  
+]
