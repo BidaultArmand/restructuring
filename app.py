@@ -4,6 +4,7 @@ import plotly.express as px
 import requests
 import json
 import time
+import re 
 from rag_query import rag_query, build_context
 
 # === CONFIGURATION GLOBALE ===
@@ -124,9 +125,13 @@ else:
         system_prompt = (
             "Tu es un assistant de data visualisation. "
             "Tu reçois une question utilisateur et une liste de tableaux extraits d'un rapport financier. "
-            "Ta tâche : renvoyer les titres des graphiques les plus pertinents pour répondre à la question. "
-            "Réponds uniquement en JSON sous la forme : [{'titre': '...', 'pertinence': 1 à 5}]."
+            "Ta tâche : renvoyer les titres des graphiques les plus pertinents pour répondre à la question, "
+            "et pour chacun, le type de visualisation le plus adapté parmi : "
+            "'bar' (comparaison de valeurs), 'pie' (répartition d'une somme) ou 'line' (évolution temporelle). "
+            "Réponds uniquement en JSON sous la forme : "
+            "[{'titre': '...', 'pertinence': 1 à 5, 'type': 'bar'|'pie'|'line'}]."
         )
+
         payload = {
             "model": "deepseek-chat",
             "messages": [
@@ -159,14 +164,38 @@ else:
                     for table in filtered:
                         st.markdown(f"### {table['titre']}")
                         df = pd.DataFrame(table["data"])
+                        graph_type = next((p["type"] for p in priorities if p["titre"] == table["titre"]), "bar")
+
+                        df_melt = df.melt(id_vars="label", var_name="variable", value_name="valeur")
+
                         try:
-                            fig = px.bar(
-                                df.melt(id_vars="label", var_name="variable", value_name="valeur"),
-                                x="label", y="valeur", color="variable",
-                                title=table["titre"]
-                            )
+                            if graph_type == "pie":
+                                # === Graphique en camembert ===
+                                fig = px.pie(df_melt, names="label", values="valeur", title=table["titre"])
+                                fig.update_traces(textinfo="percent+label+value")
+
+                            elif graph_type == "line":
+                                # === Graphique d’évolution ===
+                                fig = px.line(
+                                    df_melt, x="label", y="valeur", color="variable",
+                                    markers=True, title=table["titre"]
+                                )
+                                fig.update_traces(mode="lines+markers+text", text="valeur", textposition="top center")
+
+                            else:
+                                # === Graphique en barres par défaut ===
+                                fig = px.bar(
+                                    df_melt, x="label", y="valeur", color="variable",
+                                    text="valeur", title=table["titre"]
+                                )
+                                fig.update_traces(textposition="outside", texttemplate="%{text:.0f}")
+                                fig.update_layout(uniformtext_minsize=8, uniformtext_mode="hide")
+
                             st.plotly_chart(fig, use_container_width=True)
-                        except Exception:
+
+                        except Exception as e:
+                            st.warning(f"Erreur d'affichage pour '{table['titre']}' : {e}")
                             st.dataframe(df)
+
                 else:
                     st.warning("Aucun graphique pertinent trouvé.")
