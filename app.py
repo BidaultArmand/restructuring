@@ -1,6 +1,13 @@
 import streamlit as st
-from rag_query import rag_query, build_context
+import pandas as pd
+import plotly.express as px
+import requests
+import json
 import time
+from rag_query import rag_query, build_context
+
+# === CONFIGURATION GLOBALE ===
+st.set_page_config(page_title="E-Center App", page_icon="⚖️", layout="wide")
 
 # === PROTECTION PAR MOT DE PASSE ===
 def check_password():
@@ -22,130 +29,144 @@ def check_password():
 if not check_password():
     st.stop()
 
-# === CONFIGURATION DE LA PAGE ===
-st.set_page_config(page_title="Assistant juridique DeepSeek", page_icon="⚖️", layout="wide")
+# === MENU LATÉRAL (natif Streamlit) ===
+st.sidebar.title("📂 Navigation")
+page = st.sidebar.radio(
+    "Choisis une page :",
+    ["🧠 Assistant juridique", "📊 Dashboard financier"],
+)
 
-# === STYLE CHATGPT-LIKE ===
-st.markdown("""
-<style>
-    [data-testid="stAppViewContainer"] {
-        background-color: #f9f9fb;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        height: 100vh;
-        overflow: hidden;
-    }
-
-    /* Zone scrollable contenant les messages */
-    .chat-container {
-        flex-grow: 1;
-        overflow-y: auto;
-        padding: 1rem 0.5rem 6rem 0.5rem; /* Espace pour l'input */
-    }
-
-    /* Barre d’input fixée en bas */
-    .stChatInputContainer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background-color: #f9f9fb;
-        padding: 1rem 0.5rem;
-        box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.05);
-        z-index: 100;
-    }
-
-    /* Style des messages */
-    .stChatMessage {
-        padding: 1rem 1.5rem;
-        border-radius: 1rem;
-        max-width: 80%;
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-        line-height: 1.5;
-        margin: 0.5rem 0;
-    }
-    .stChatMessage.user {
-        background-color: #DCF8C6;
-        margin-left: auto;
-    }
-    .stChatMessage.assistant {
-        background-color: #FFFFFF;
-        border: 1px solid #E5E5E5;
-        margin-right: auto;
-    }
-
-    /* Titres */
-    h1, h2 {
-        text-align: center;
-        font-family: "Inter", sans-serif;
-    }
-</style>
-""", unsafe_allow_html=True)
-
-# === TITRES ===
-st.markdown("<h1>Assistant – E center</h1>", unsafe_allow_html=True)
-st.markdown("<h2>Mission Restructuring X-HEC</h2>", unsafe_allow_html=True)
-st.markdown("<br>", unsafe_allow_html=True)
-
-# === LAYOUT CENTRAL ===
-col_gauche, col_centre, col_droite = st.columns([0.2, 0.6, 0.2])
-with col_centre:
-    st.markdown('<div class="chat-container">', unsafe_allow_html=True)
-
-    # === INITIALISATION DE LA SESSION ===
-    if "messages" not in st.session_state:
+st.sidebar.markdown("---")
+if st.sidebar.button("🗑️ Réinitialiser la conversation"):
+    if "messages" in st.session_state:
         st.session_state.messages = []
+    st.rerun()
 
-    # === AFFICHAGE DE L'HISTORIQUE ===
-    for msg in st.session_state.messages:
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
+# -------------------------------------------------------------------
+# 🧠 PAGE 1 — ASSISTANT JURIDIQUE
+# -------------------------------------------------------------------
+if page == "🧠 Assistant juridique":
+    st.title("🧠 Assistant – E-Center")
+    st.caption("Mission Restructuring X-HEC")
 
-    st.markdown('</div>', unsafe_allow_html=True)
+    # Zone de discussion
+    chat_container = st.container()
+    input_container = st.container()
 
-    # === SAISIE UTILISATEUR ===
-    if prompt := st.chat_input("Entrez votre question ici..."):
+    with chat_container:
+        st.markdown("---")
+        if "messages" not in st.session_state:
+            st.session_state.messages = []
 
-        # Ajout du message utilisateur
-        st.session_state.messages.append({"role": "user", "content": prompt})
-        with st.chat_message("user"):
-            st.markdown(prompt)
+        for msg in st.session_state.messages:
+            with st.chat_message(msg["role"]):
+                st.markdown(msg["content"])
 
-        # === Étape 1 : Construction du contexte avec barre dynamique ===
-        with st.chat_message("assistant"):
-            status_text = st.empty()
-            progress_bar = st.progress(0)
-            status_text.markdown("🔎 Construction du contexte en cours...")
+    with input_container:
+        st.markdown("#### 💬 Pose ta question :")
+        prompt = st.text_area(
+            "Entrer votre question ici :",
+            placeholder="Ex : Quelles sont les étapes d'une procédure de sauvegarde ?",
+            label_visibility="collapsed",
+            height=100,
+        )
 
-            context = build_context(prompt)
-            context_length = len(context)
+        send = st.button("Envoyer", use_container_width=True)
 
-            # Animation de la barre selon la taille du contexte
-            max_chars = 20000  # ajustable selon tes cas
-            progress_value = min(context_length / max_chars, 1.0)
+        if send and prompt.strip():
+            st.session_state.messages.append({"role": "user", "content": prompt})
+            with chat_container.chat_message("user"):
+                st.markdown(prompt)
 
-            for i in range(int(progress_value * 100)):
-                progress_bar.progress(i + 1)
-                time.sleep(0.01)
+            with chat_container.chat_message("assistant"):
+                status_text = st.empty()
+                progress_bar = st.progress(0)
+                status_text.markdown("🔎 Construction du contexte en cours...")
 
-            progress_bar.progress(100)
-            status_text.markdown(f"✅ Contexte construit ({context_length} caractères)")
+                context = build_context(prompt)
+                context_length = len(context)
+                max_chars = 20000
+                progress_value = min(context_length / max_chars, 1.0)
 
-            # === Étape 2 : Appel du modèle RAG ===
-            with st.spinner("Hélène réfléchit..."):
-                response = rag_query(prompt)
+                for i in range(int(progress_value * 100)):
+                    progress_bar.progress(i + 1)
+                    time.sleep(0.01)
 
-            # Nettoyage et affichage
-            progress_bar.empty()
-            status_text.empty()
+                progress_bar.progress(100)
+                status_text.markdown(f"✅ Contexte construit ({context_length} caractères)")
 
-            st.markdown(response)
-            st.session_state.messages.append({"role": "assistant", "content": response})
+                with st.spinner("L'assistant réfléchit..."):
+                    response = rag_query(prompt)
 
-    # === RÉINITIALISATION ===
-    st.markdown("---")
-    if st.button("🗑️ Réinitialiser la conversation"):
-        st.session_state.messages = []
-        st.rerun()
+                progress_bar.empty()
+                status_text.empty()
+
+                st.markdown(response)
+                st.session_state.messages.append({"role": "assistant", "content": response})
+
+# -------------------------------------------------------------------
+# 📊 PAGE 2 — DASHBOARD FINANCIER
+# -------------------------------------------------------------------
+else:
+    st.title("📊 Dashboard intelligent – E-Center")
+
+    try:
+        with open("data/all_tables.json", "r", encoding="utf-8") as f:
+            tables = json.load(f)
+    except FileNotFoundError:
+        st.error("Fichier 'all_tables.json' introuvable.")
+        st.stop()
+
+    question = st.text_input("❓ Pose ta question :", placeholder="Ex : Quelle est l'évolution du chiffre d'affaires ?")
+
+    def ask_agent(question, tables, api_key):
+        subset = [{"titre": t["titre"], "extrait": str(t["data"][:2])} for t in tables]
+        system_prompt = (
+            "Tu es un assistant de data visualisation. "
+            "Tu reçois une question utilisateur et une liste de tableaux extraits d'un rapport financier. "
+            "Ta tâche : renvoyer les titres des graphiques les plus pertinents pour répondre à la question. "
+            "Réponds uniquement en JSON sous la forme : [{'titre': '...', 'pertinence': 1 à 5}]."
+        )
+        payload = {
+            "model": "deepseek-chat",
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"Question: {question}\n\nDonnées:\n{json.dumps(subset, ensure_ascii=False)}"},
+            ],
+        }
+        headers = {
+            "Authorization": f"Bearer {st.secrets['DEEPSEEK_API_KEY']}",
+            "Content-Type": "application/json",
+        }
+        try:
+            response = requests.post("https://api.deepseek.com/v1/chat/completions", headers=headers, json=payload)
+            response.raise_for_status()
+            text = response.json()["choices"][0]["message"]["content"]
+            return json.loads(text)
+        except Exception as e:
+            st.error(f"Erreur agent: {e}")
+            return []
+
+    if question:
+        if st.button("🔍 Trouver les graphiques pertinents"):
+            with st.spinner("Analyse de la question..."):
+                priorities = ask_agent(question, tables, st.secrets["DEEPSEEK_API_KEY"])
+                if priorities:
+                    sorted_titles = [p["titre"] for p in sorted(priorities, key=lambda x: x["pertinence"])]
+                    filtered = [t for t in tables if t["titre"] in sorted_titles[:5]]
+
+                    st.success("✅ Graphiques identifiés comme pertinents :")
+                    for table in filtered:
+                        st.markdown(f"### {table['titre']}")
+                        df = pd.DataFrame(table["data"])
+                        try:
+                            fig = px.bar(
+                                df.melt(id_vars="label", var_name="variable", value_name="valeur"),
+                                x="label", y="valeur", color="variable",
+                                title=table["titre"]
+                            )
+                            st.plotly_chart(fig, use_container_width=True)
+                        except Exception:
+                            st.dataframe(df)
+                else:
+                    st.warning("Aucun graphique pertinent trouvé.")

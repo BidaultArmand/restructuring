@@ -1,0 +1,55 @@
+[01:28:43] 🚀 Démarrage du script RAG DEBUG
+[01:28:43] ⚙️ Initialisation du modèle...
+[01:28:50] Après chargement du modèle 💾 RAM utilisée: 9.53 Go / 16.00 Go
+[01:28:50] 📄 Chargé 4500_E_CENTER_Jugement_arr_tant_le_plan_de_sauvegarde_du_25_novembre_2016.txt (309 caractères)
+[01:28:51] Fin traitement 4500_E_CENTER_Jugement_arr_tant_le_plan_de_sauvegarde_du_25_novembre_2016.txt 💾 RAM utilisée: 9.18 Go / 16.00 Go
+[01:28:51] 📄 Chargé Rapport E-center sauvegarde.txt (162989 caractères)
+[01:28:53] 🔹 Ajout de 64 chunks (total: 65)
+[01:28:53] Après encodage batch 1 💾 RAM utilisée: 9.36 Go / 16.00 Go
+[01:28:53] 🔹 Ajout de 64 chunks (total: 129)
+[01:28:53] Après encodage batch 2 💾 RAM utilisée: 9.43 Go / 16.00 Go
+[01:28:54] 🔹 Ajout de 64 chunks (total: 193)
+[01:28:54] Après encodage batch 3 💾 RAM utilisée: 9.44 Go / 16.00 Go
+[01:28:54] 🔹 Ajout de 64 chunks (total: 257)
+[01:28:54] Après encodage batch 4 💾 RAM utilisée: 9.45 Go / 16.00 Go
+[01:28:54] 🔹 Ajout de 64 chunks (total: 321)
+[01:28:54] Après encodage batch 5 💾 RAM utilisée: 9.45 Go / 16.00 Go
+[01:28:55] 🔹 Ajout de 64 chunks (total: 385)
+[01:28:55] Après encodage batch 6 💾 RAM utilisée: 9.46 Go / 16.00 Go
+[01:28:55] Fin traitement Rapport E-center sauvegarde.txt 💾 RAM utilisée: 9.47 Go / 16.00 Go
+[01:28:55] 📄 Chargé E-CENTER - Comptes annuels 2024.txt (47388 caractères)
+[01:28:56] 🔹 Ajout de 64 chunks (total: 454)
+[01:28:56] Après encodage batch 7 💾 RAM utilisée: 9.48 Go / 16.00 Go
+[01:28:56] Fin traitement E-CENTER - Comptes annuels 2024.txt 💾 RAM utilisée: 9.61 Go / 16.00 Go
+[01:28:56] 📄 Chargé E-CENTER - Déclaration de cessation des paiements.txt (128059 caractères)
+[01:28:57] 🔹 Ajout de 64 chunks (total: 567)
+[01:28:57] Après encodage batch 8 💾 RAM utilisée: 9.61 Go / 16.00 Go
+[01:28:57] 🔹 Ajout de 64 chunks (total: 631)
+[01:28:57] Après encodage batch 9 💾 RAM utilisée: 9.61 Go / 16.00 Go
+[01:28:57] 🔹 Ajout de 64 chunks (total: 695)
+[01:28:57] Après encodage batch 10 💾 RAM utilisée: 9.61 Go / 16.00 Go
+[01:28:58] 🔹 Ajout de 64 chunks (total: 759)
+[01:28:58] Après encodage batch 11 💾 RAM utilisée: 9.61 Go / 16.00 Go
+[01:28:58] Fin traitement E-CENTER - Déclaration de cessation des paiements.txt 💾 RAM utilisée: 9.61 Go / 16.00 Go
+[01:28:58] 📄 Chargé E-CENTER - Jugement d'ouverture.txt (10951 caractères)
+[01:28:59] Fin traitement E-CENTER - Jugement d'ouverture.txt 💾 RAM utilisée: 9.54 Go / 16.00 Go
+[01:28:59] 📄 Chargé e - center projet de plan de sauvegarde.txt (162989 caractères)
+[01:28:59] 🔹 Ajout de 64 chunks (total: 899)
+[01:28:59] Après encodage batch 14 💾 RAM utilisée: 9.51 Go / 16.00 Go
+[01:28:59] 🔹 Ajout de 64 chunks (total: 963)
+[01:28:59] Après encodage batch 15 💾 RAM utilisée: 9.61 Go / 16.00 Go
+[01:29:00] 🔹 Ajout de 64 chunks (total: 1027)
+[01:29:00] Après encodage batch 16 💾 RAM utilisée: 9.61 Go / 16.00 Go
+[01:29:00] 🔹 Ajout de 64 chunks (total: 1091)
+[01:29:00] Après encodage batch 17 💾 RAM utilisée: 9.61 Go / 16.00 Go
+[01:29:00] 🔹 Ajout de 64 chunks (total: 1155)
+[01:29:00] Après encodage batch 18 💾 RAM utilisée: 9.60 Go / 16.00 Go
+[01:29:00] 🔹 Ajout de 64 chunks (total: 1219)
+[01:29:00] Après encodage batch 19 💾 RAM utilisée: 9.60 Go / 16.00 Go
+[01:29:01] Fin traitement e - center projet de plan de sauvegarde.txt 💾 RAM utilisée: 9.62 Go / 16.00 Go
+[01:29:01] ✅ 1224 chunks encodés au total
+[01:29:01] Avant sauvegarde 💾 RAM utilisée: 9.62 Go / 16.00 Go
+[01:29:01] 💾 Sauvegarde de l'index...
+[01:29:01] 💾 Sauvegarde des métadonnées chunks...
+[01:29:01] ✅ Terminé sans crash !
+[01:29:01] Fin du traitement 💾 RAM utilisée: 9.62 Go / 16.00 Go
