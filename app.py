@@ -1,6 +1,26 @@
 import streamlit as st
-from rag_query import rag_query, build_context  # tu gardes ton module tel quel
+from rag_query import rag_query, build_context
 import time
+
+# === PROTECTION PAR MOT DE PASSE ===
+def check_password():
+    def password_entered():
+        if st.session_state["password"] == st.secrets["password"]:
+            st.session_state["authenticated"] = True
+        else:
+            st.session_state["authenticated"] = False
+            st.warning("❌ Mot de passe incorrect.")
+
+    if "authenticated" not in st.session_state:
+        st.text_input("Entrez le mot de passe :", type="password", on_change=password_entered, key="password")
+        return False
+    elif not st.session_state["authenticated"]:
+        st.text_input("Entrez le mot de passe :", type="password", on_change=password_entered, key="password")
+        return False
+    return True
+
+if not check_password():
+    st.stop()
 
 # === CONFIGURATION DE LA PAGE ===
 st.set_page_config(page_title="Assistant juridique DeepSeek", page_icon="⚖️", layout="wide")
