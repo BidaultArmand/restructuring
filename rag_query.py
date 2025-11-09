@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 # === CONFIG ===
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 INDEX_PATH = "index_debug.faiss"
