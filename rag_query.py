@@ -14,7 +14,7 @@ MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 INDEX_PATH = "index_debug.faiss"
 CHUNKS_PATH = "chunks_debug.json"
 TABLES_PATH = "data/all_tables.json"
-TOP_K = 20
+TOP_K = 10  # Réduit de 20 à 10 pour éviter le dépassement de contexte
 
 
 API_KEY = os.getenv("DEEPSEEK_API_KEY")

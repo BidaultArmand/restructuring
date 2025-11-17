@@ -4,8 +4,9 @@ import plotly.express as px
 import requests
 import json
 import time
-import re 
+import re
 from rag_query import rag_query, build_context
+from diagnostic_agents import DiagnosticRouter, generate_full_report, answer_question
 
 # === CONFIGURATION GLOBALE ===
 st.set_page_config(page_title="E-Center App", page_icon="⚖️", layout="wide")
@@ -34,7 +35,7 @@ if not check_password():
 st.sidebar.title("📂 Navigation")
 page = st.sidebar.radio(
     "Choisis une page :",
-    ["🧠 Assistant juridique", "📊 Dashboard financier"],
+    ["🧠 Assistant juridique", "📋 Diagnostics professionnels", "📊 Dashboard financier"],
 )
 
 st.sidebar.markdown("---")
@@ -106,7 +107,162 @@ if page == "🧠 Assistant juridique":
                 st.session_state.messages.append({"role": "assistant", "content": response})
 
 # -------------------------------------------------------------------
-# 📊 PAGE 2 — DASHBOARD FINANCIER
+# 📋 PAGE 2 — DIAGNOSTICS PROFESSIONNELS
+# -------------------------------------------------------------------
+elif page == "📋 Diagnostics professionnels":
+    st.title("📋 Diagnostics professionnels – E-Center")
+    st.caption("Mission Restructuring X-HEC")
+
+    # Initialisation du routeur
+    if "router" not in st.session_state:
+        st.session_state.router = DiagnosticRouter()
+
+    # Onglets pour les différentes fonctionnalités
+    tab1, tab2, tab3 = st.tabs(["📊 Tous les diagnostics", "🎯 Diagnostic spécifique", "❓ Question ciblée"])
+
+    # TAB 1: Générer tous les diagnostics
+    with tab1:
+        st.markdown("### Génération complète de tous les diagnostics")
+        st.info("Cette fonction génère un rapport complet avec les 7 diagnostics : Marché, Produit, Concurrence, Histoire, Process, Chiffre, et Juridique.")
+
+        if st.button("🚀 Générer tous les diagnostics", type="primary", use_container_width=True):
+            with st.spinner("Génération en cours... Cela peut prendre quelques minutes."):
+                progress_bar = st.progress(0)
+                status_text = st.empty()
+
+                diagnostics = {}
+                domains = list(st.session_state.router.agents.keys())
+
+                for i, (domain, agent) in enumerate(st.session_state.router.agents.items()):
+                    status_text.text(f"Génération du diagnostic : {agent.domain}")
+                    progress_bar.progress((i + 1) / len(domains))
+
+                    try:
+                        diagnostics[domain] = agent.run()
+                    except Exception as e:
+                        diagnostics[domain] = f"Erreur lors de la génération : {str(e)}"
+
+                progress_bar.empty()
+                status_text.empty()
+
+                st.session_state["all_diagnostics"] = diagnostics
+                st.success("✅ Tous les diagnostics ont été générés avec succès !")
+
+        # Afficher les diagnostics générés
+        if "all_diagnostics" in st.session_state:
+            st.markdown("---")
+            st.markdown("## 📑 Rapport complet")
+
+            # Bouton pour télécharger le rapport complet
+            full_report = ""
+            for domain, content in st.session_state["all_diagnostics"].items():
+                agent = st.session_state.router.agents[domain]
+                full_report += f"\n\n# {agent.domain.upper()}\n\n{content}\n\n{'='*80}\n"
+
+            st.download_button(
+                label="📥 Télécharger le rapport complet (Markdown)",
+                data=full_report,
+                file_name="diagnostic_complet_ecenter.md",
+                mime="text/markdown",
+                use_container_width=True
+            )
+
+            # Affichage des diagnostics avec expanders
+            for domain, content in st.session_state["all_diagnostics"].items():
+                agent = st.session_state.router.agents[domain]
+                with st.expander(f"📌 {agent.domain}", expanded=False):
+                    st.markdown(content)
+
+    # TAB 2: Générer un diagnostic spécifique
+    with tab2:
+        st.markdown("### Générer un diagnostic spécifique")
+
+        domain_labels = {
+            "marche": "🌐 Marché actuel",
+            "produit": "🎁 Produit",
+            "concurrence": "⚔️ Concurrence",
+            "histoire": "📜 Histoire",
+            "process": "⚙️ Process",
+            "chiffre": "💰 Chiffre",
+            "juridique": "⚖️ Juridique"
+        }
+
+        selected_domain = st.selectbox(
+            "Sélectionnez un domaine de diagnostic :",
+            options=list(domain_labels.keys()),
+            format_func=lambda x: domain_labels[x]
+        )
+
+        if st.button("🎯 Générer ce diagnostic", use_container_width=True):
+            agent = st.session_state.router.agents[selected_domain]
+
+            with st.spinner(f"Génération du diagnostic {agent.domain}..."):
+                try:
+                    diagnostic = agent.run()
+                    st.session_state[f"diagnostic_{selected_domain}"] = diagnostic
+                    st.success(f"✅ Diagnostic {agent.domain} généré avec succès !")
+                except Exception as e:
+                    st.error(f"❌ Erreur lors de la génération : {str(e)}")
+
+        # Afficher le diagnostic généré
+        if f"diagnostic_{selected_domain}" in st.session_state:
+            st.markdown("---")
+            agent = st.session_state.router.agents[selected_domain]
+            st.markdown(f"## 📋 {agent.domain}")
+            st.markdown(st.session_state[f"diagnostic_{selected_domain}"])
+
+            st.download_button(
+                label=f"📥 Télécharger le diagnostic {agent.domain}",
+                data=st.session_state[f"diagnostic_{selected_domain}"],
+                file_name=f"diagnostic_{selected_domain}_ecenter.md",
+                mime="text/markdown",
+                use_container_width=True
+            )
+
+    # TAB 3: Poser une question ciblée
+    with tab3:
+        st.markdown("### Poser une question ciblée")
+        st.info("Posez une question sur un sujet spécifique et l'agent approprié y répondra automatiquement.")
+
+        # Zone de saisie de question
+        question = st.text_area(
+            "Votre question :",
+            placeholder="Ex: Quelle est la situation financière de E-Center ? Qui sont les concurrents principaux ?",
+            height=100
+        )
+
+        if st.button("🔍 Obtenir une réponse", use_container_width=True):
+            if question.strip():
+                with st.spinner("Analyse de la question et génération de la réponse..."):
+                    # Identifier le domaine
+                    domain = st.session_state.router.identify_domain(question)
+                    agent = st.session_state.router.agents[domain]
+
+                    st.info(f"🎯 Question routée vers l'agent : **{agent.domain}**")
+
+                    try:
+                        # Générer la réponse
+                        response = agent.run(custom_query=question)
+
+                        st.markdown("---")
+                        st.markdown(f"## 💡 Réponse de l'agent {agent.domain}")
+                        st.markdown(response)
+
+                        # Bouton de téléchargement
+                        st.download_button(
+                            label="📥 Télécharger la réponse",
+                            data=f"# Question\n\n{question}\n\n# Réponse ({agent.domain})\n\n{response}",
+                            file_name=f"reponse_{domain}_ecenter.md",
+                            mime="text/markdown",
+                            use_container_width=True
+                        )
+                    except Exception as e:
+                        st.error(f"❌ Erreur lors de la génération de la réponse : {str(e)}")
+            else:
+                st.warning("⚠️ Veuillez saisir une question.")
+
+# -------------------------------------------------------------------
+# 📊 PAGE 3 — DASHBOARD FINANCIER
 # -------------------------------------------------------------------
 else:
     st.title("📊 Dashboard intelligent – E-Center")
